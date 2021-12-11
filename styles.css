@@ -1,20 +1,19 @@
-*, *::after, *::before {
-  box-sizing: border-box;
+:root {
+  --yangColor: #d8c21e;
+  --yinColor: #111111;
+  --background: rgba(0, 0, 0, 0.3);
 }
 
-* {
-  font-family: 'Poppins', sans-serif;
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
-:root {
-  --yangColor: #d8c21e;
-  --yinColor: #111111;
-  --background: rgba(0, 0, 0, .3);
-}
-
 .canvas {
+  font-family: 'Poppins', sans-serif;
   width: 100%;
   height: 100vh;
   background-color: var(--yinColor);
@@ -72,7 +71,7 @@
   display: grid;
   place-items: center;
   font-size: 5em;
-  font-weight: 600; 
+  font-weight: 600;
   z-index: 1;
 }
 
@@ -84,7 +83,7 @@
   display: block;
   width: 100%;
   text-align: center;
-  padding: .5em 0;
+  padding: 0.5em 0;
   z-index: 1;
 }
 

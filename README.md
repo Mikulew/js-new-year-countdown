@@ -1,9 +1,10 @@
 # New Year Countdown
 
 ## Table of contents
-* [General info](#general-info)
-* [Technologies](#technologies)
-* [Demo](#demo)
+
+- [General info](#general-info)
+- [Technologies](#technologies)
+- [Demo](#demo)
 
 ## General info
 
@@ -11,9 +12,9 @@ A simple countdown to the new year when someone wants to remind how many days ar
 
 ## Technologies
 
-* HTML5
-* CSS3
-* JavaScript (ES6+)
+- HTML5
+- CSS3
+- JavaScript (ES6+)
 
 ## Demo
 

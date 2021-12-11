@@ -3,12 +3,12 @@ const hoursBox = document.getElementById("hours-box");
 const minutesBox = document.getElementById("minutes-box");
 const secondsBox = document.getElementById("seconds-box");
 const second = 1000; // 1 second = 1000 milliseconds
-const minute = 60 * second; 
+const minute = 60 * second;
 const hour = 60 * minute;
 const day = 24 * hour;
 
 function getLastDayTime(year) {
-  const lastDayOfYear = new Date(year, 11, 31, 23,59, 59, 999);
+  const lastDayOfYear = new Date(year, 11, 31, 23, 59, 59, 999);
   return lastDayOfYear.getTime();
 }
 
@@ -24,7 +24,7 @@ function countdown() {
     currentYear += 1;
     endTime = getLastDayTime(currentYear);
     remainingTime = endTime - todayTime;
-  } 
+  }
   const daysLeft = Math.floor(remainingTime / day);
   const hoursLeft = Math.floor((remainingTime % day) / hour);
   const minutesLeft = Math.floor((remainingTime % hour) / minute);
