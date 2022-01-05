@@ -103,7 +103,7 @@
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
   .container {
     width: 90vw;
     height: 100%;
@@ -113,30 +113,22 @@
     font-size: 16px;
   }
   .box {
-    width: 100%;
     min-height: auto;
     font-size: 8px;
   }
   .text {
-    font-size: 1.5em;
+    font-size: 1.8em;
   }
 }
 
-@media screen and (max-width: 720px) and (orientation: landscape) {
-  .container {
-    width: 90vw;
-    height: 100%;
+@media screen and (max-width: 768px) and (orientation: portrait) {
+  .box {
+    width: 100%;
   }
-  .title {
-    margin-top: 15px;
-    font-size: 16px;
-  }
+}
+
+@media screen and (max-width: 768px) and (orientation: landscape) {
   .box {
     width: 45%;
-    min-height: auto;
-    font-size: 8px;
-  }
-  .text {
-    font-size: 1.2em;
   }
 }
